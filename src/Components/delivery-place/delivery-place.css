@@ -1,0 +1,50 @@
+.delivery-place__input {
+  width: 292px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding-left: 33px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.delivery-place__input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.delivery-place__adress {
+  position: relative;
+}
+
+.delivery-place__adress:before {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.delivery-place {
+  margin-top: 17px;
+  display: flex;
+}
+
+.delivery-place__time {
+  width: 65px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+  background: white;
+}
+
+.delivery-place__span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin: 10px 9px;
+}

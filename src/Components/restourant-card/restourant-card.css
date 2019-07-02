@@ -1,0 +1,8 @@
+.restaurantCard{
+    width: 300px;
+}
+
+.restaurantCard__img{
+ object-fit: contain;
+
+}
