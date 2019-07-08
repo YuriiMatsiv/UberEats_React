@@ -3,16 +3,17 @@ import "./Main.css";
 import { Search } from "../search/Search";
 import { restaurants } from "./../info";
 import { RestourantCard } from "./../restourant-card/restourant-card";
+import {Container} from "../Container/Container";
 
 export function Main() {
   return (
-    <div className="main">
+      <Container>
+   <div className="main">
       <Search />
       <span className="main__span">Kyiv Restaurants</span>
-<div className="restourntsWrapper">
+      <div className="restourntsWrapper">
         {restaurants.map((restaurant, i) => {
           return (
-
             <RestourantCard
               key={i}
               title={restaurant.title}
@@ -23,7 +24,8 @@ export function Main() {
             />
           );
         })}
-</div>
+      </div>
     </div>
+      </Container>
   );
 }

@@ -9,15 +9,15 @@ function App() {
     <div className="App">
       <Header />
       <Main />
-      {/**/}
-      {/*<Router>*/}
-      {/*     <Route path='/'*/}
-      {/*            exact*/}
-      {/*            component={main}/>*/}
-      {/*     <Route path='/restaurant'*/}
-      {/*            component={RestaurantPage}/>*/}
-      {/* </Router>*/}
     </div>
+
+    // <Router>
+    //   <Route path='/'
+    // exact
+    // component={Main}/>
+    // <Route path='/restaurant-card'
+    //        component={restaurantCard}/>
+    // </Router>
   );
 }
 

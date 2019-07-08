@@ -1,8 +1,10 @@
-.restaurantCard{
-    width: 300px;
+.restaurantCard {
+  width: 375px;
+  height: 360px;
+
 }
 
-.restaurantCard__img{
- object-fit: contain;
-
+.restaurantCard__img {
+  object-fit: contain;
+  height: 240px;
 }
