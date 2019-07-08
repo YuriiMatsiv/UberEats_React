@@ -10,8 +10,11 @@ export function RestourantCard(props) {
         alt="restourant_photo"
       />
       <span className="restaurantCard__title">{props.title}</span>
-      <span className="restaurantCard__category">{props.priceBucket}</span>
-      <span className="restaurant-card__time"></span>
+      <p className="restaurantCard__category">{props.priceBucket}</p>
+      <p className="restaurant-card__time">20-30хв</p>
+
+
+        <h1>якийсь ресторан</h1>
     </div>
   );
 }
