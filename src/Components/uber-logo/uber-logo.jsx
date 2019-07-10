@@ -4,7 +4,7 @@ import logo from "./logo.svg";
 
 export function UberLogo() {
   return (
-    <a href="https://www.ubereats.com/ru-UA/stores/">
+    <a href="/">
       <img src={logo} alt="logo" className="uber-logo" />
     </a>
   );

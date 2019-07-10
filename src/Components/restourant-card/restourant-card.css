@@ -1,9 +1,22 @@
 .restaurantCard {
     width: 365px;
-    height: 360px;
+   text-align: left;
+    margin-bottom: 10px;
 }
 .restaurantCard__img {
     width: 100%;
     object-fit: cover;
     height: 240px;
+}
+.restaurantCard__title{
+    font-size: 16px;
+}
+
+.restaurantCard__category{
+    font-size: 14px;
+    color: #626262;
+}
+
+.restaurant-card__time{
+    font-size: 13px;
 }

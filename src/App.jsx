@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
 import { Header } from "./Components/header/Header.jsx";
 import { Main } from "./Components/main/Main.jsx";
-import {RestourantCard} from "./Components/restourant-card/restourant-card"
+import {RestourantPage} from "./Components/RestourantPage/RestourantPage"
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
                    component={Main}/>
             <Route
                 path="/restourant"
-                component={RestourantCard}
+                component={RestourantPage}
             />
 
         </Router>
