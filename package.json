@@ -17,6 +17,7 @@
     "eject": "react-scripts eject",
     "rename-index": "node -e \"require('fs').rename('./build/index.html', './build/200.html', (err) => { console.log(err ? err : 'File renamed!') })\"",
     "predeploy": "npm run build && npm run rename-index",
+    "deploy": "surge --project ./build --domain YOUR-DOMAIN",
     "format": "prettier --write \"src/**/*.{js,jsx,css}\""
   },
   "eslintConfig": {
@@ -40,7 +41,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run deploy"
     }
   },
   "lint-staged": {

@@ -1,6 +1,12 @@
 import React from "react";
 import "./Search.css";
 
+window.searchValue = '';
+
+function onInputHandler(event) {
+    window.searchValue = event.target.value;
+}
+
 export function Search() {
   return (
     <div className="search">
@@ -8,6 +14,7 @@ export function Search() {
         <input
           type="text"
           className="search__input"
+          onInput={onInputHandler}
           placeholder="Search for restaurant or cuisine"
         />
       </label>
