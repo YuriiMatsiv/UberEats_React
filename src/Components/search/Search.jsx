@@ -1,13 +1,15 @@
 import React from "react";
 import "./Search.css";
 
-window.searchValue = '';
 
-function onInputHandler(event) {
-    window.searchValue = event.target.value;
-}
 
-export function Search() {
+
+
+export function Search(props) {
+    function onInputHandler(event) {
+        props.onSearchChange(event.target.value);
+    }
+
   return (
     <div className="search">
       <label className="search__label">
